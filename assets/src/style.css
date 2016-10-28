@@ -20,21 +20,23 @@ body {
   width: 100vmin;
   left: 50%;
   transform: translateX(-50%); }
-  #container #score {
-    margin-left: 89.3vmin; }
-  #container .score {
+  #container #life {
+    margin-left: 93vmin; }
+  #container .life {
     text-align: center;
     color: #fff;
-    margin-left: 87vmin;
+    margin-left: 90vmin;
     background-color: #495759;
-    width: 7vmin; }
+    width: 7vmin;
+    text-transform: uppercase; }
   #container #ball {
     width: 25px;
     height: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-    margin-bottom: 2vmin;
+    margin-bottom: 5vmin;
+    margin-left: 1vmin;
     background: red; }
   #container #obstacle1 {
     width: 80vmin;
@@ -46,5 +48,56 @@ body {
     width: 3vmin;
     height: 50vmin;
     background-color: #0000ff; }
+  #container #obstacle3 {
+    width: 55vmin;
+    height: 3vmin;
+    margin-top: -5vmin;
+    margin-left: 25vmin;
+    background-color: #0000ff; }
+  #container #obstacle4 {
+    width: 3vmin;
+    height: 25vmin;
+    margin-top: -25vmin;
+    margin-left: 25vmin;
+    background-color: #0000ff; }
+  #container #obstacle5 {
+    width: 35vmin;
+    height: 3vmin;
+    margin-top: -25vmin;
+    margin-left: 25vmin;
+    background-color: #0000ff; }
+  #container #obstacle6 {
+    width: 3vmin;
+    height: 30vmin;
+    margin-top: -22vmin;
+    margin-left: 60vmin;
+    background-color: #0000ff; }
+  #container #obstacle7 {
+    width: 23vmin;
+    height: 23vmin;
+    margin-top: -42vmin;
+    margin-left: 30vmin;
+    background-color: #0000ff; }
+  #container #obstacle8 {
+    margin-left: 10vmin;
+    margin-top: -12vmin;
+    width: 3vmin;
+    height: 50vmin;
+    background-color: #0000ff; }
+  #container #obstacle9 {
+    width: 15vmin;
+    height: 3vmin;
+    margin-top: -15vmin;
+    margin-left: 12vmin;
+    background-color: #0000ff; }
+  #container #Home {
+    width: 15vmin;
+    height: 15vmin;
+    margin-top: -13vmin;
+    margin-left: 30vmin;
+    color: #fff;
+    text-align: center;
+    line-height: 15vmin;
+    background-color: red; }
 
 /*# sourceMappingURL=style.css.map */
