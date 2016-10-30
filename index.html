@@ -3,15 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Maze Game</title>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/src/style.css" media="screen" title="no title">
+    <script type="text/javascript" src="assets/scripts/script.js"></script>
+
+
+
   </head>
-  <body>
+  <body  onkeypress="myMove()">
     <h1>Can you bring my ball</h1>
     <button type="button" name="button" id="reset">Reset Game</button>
 
 <div id="container">
-  <div id="life">5</div>
-  <div class="life">Life</div>
+  <div id="val">5</div>
+  <div id="life">Life</div>
   <div id="ball"></div>
 
 <div id="obstacle1"></div>

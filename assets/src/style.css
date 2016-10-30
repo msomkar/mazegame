@@ -2,102 +2,84 @@ body {
   background-color: #495759; }
   body h1 {
     text-align: center;
-    margin-bottom: 1.5vmin;
+    margin-bottom: 15px;
     color: #fff;
     text-transform: uppercase; }
   body #reset {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 2vmin;
+    margin-bottom: 15px;
     text-transform: uppercase; }
 
 #container {
-  position: absolute;
+  position: relative;
   background-color: #fff;
   border: 25px solid blue;
-  height: 80vmin;
-  width: 100vmin;
+  height: 500px;
+  width: 800px;
   left: 50%;
   transform: translateX(-50%); }
+  #container #val {
+    position: fixed;
+    left: 760px;
+    top: 10px; }
   #container #life {
-    margin-left: 93vmin; }
-  #container .life {
+    position: fixed;
     text-align: center;
     color: #fff;
-    margin-left: 90vmin;
+    position: relative;
     background-color: #495759;
-    width: 7vmin;
+    width: 50px;
+    left: 740px;
+    top: 30px;
     text-transform: uppercase; }
   #container #ball {
+    position: fixed;
     width: 25px;
     height: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-    margin-bottom: 5vmin;
-    margin-left: 1vmin;
+    left: 2px;
+    top: 2px;
     background: red; }
   #container #obstacle1 {
-    width: 80vmin;
-    height: 3vmin;
+    position: fixed;
+    width: 650px;
+    height: 20px;
+    top: 50px;
     background-color: #0000ff; }
   #container #obstacle2 {
-    margin-left: 77vmin;
-    margin-bottom: 5vmin;
-    width: 3vmin;
-    height: 50vmin;
+    position: fixed;
+    left: 650px;
+    top: 50px;
+    width: 20px;
+    height: 300px;
     background-color: #0000ff; }
   #container #obstacle3 {
-    width: 55vmin;
-    height: 3vmin;
-    margin-top: -5vmin;
-    margin-left: 25vmin;
+    position: fixed;
+    width: 350px;
+    height: 20px;
+    top: 350px;
+    left: 320px;
     background-color: #0000ff; }
   #container #obstacle4 {
-    width: 3vmin;
-    height: 25vmin;
-    margin-top: -25vmin;
-    margin-left: 25vmin;
-    background-color: #0000ff; }
-  #container #obstacle5 {
-    width: 35vmin;
-    height: 3vmin;
-    margin-top: -25vmin;
-    margin-left: 25vmin;
-    background-color: #0000ff; }
-  #container #obstacle6 {
-    width: 3vmin;
-    height: 30vmin;
-    margin-top: -22vmin;
-    margin-left: 60vmin;
-    background-color: #0000ff; }
-  #container #obstacle7 {
-    width: 23vmin;
-    height: 23vmin;
-    margin-top: -42vmin;
-    margin-left: 30vmin;
-    background-color: #0000ff; }
-  #container #obstacle8 {
-    margin-left: 10vmin;
-    margin-top: -12vmin;
-    width: 3vmin;
-    height: 50vmin;
-    background-color: #0000ff; }
-  #container #obstacle9 {
-    width: 15vmin;
-    height: 3vmin;
-    margin-top: -15vmin;
-    margin-left: 12vmin;
+    position: fixed;
+    width: 20px;
+    height: 250px;
+    top: 120px;
+    left: 300px;
     background-color: #0000ff; }
   #container #Home {
-    width: 15vmin;
-    height: 15vmin;
-    margin-top: -13vmin;
-    margin-left: 30vmin;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    left: 450px;
+    top: 200px;
     color: #fff;
     text-align: center;
-    line-height: 15vmin;
+    line-height: 50px;
     background-color: red; }
 
 /*# sourceMappingURL=style.css.map */
